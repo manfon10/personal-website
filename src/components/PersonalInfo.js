@@ -67,7 +67,7 @@ const PersonalInfo = () => {
                 </div>
                 <div className="separator"></div>
                 <div className="button-download-hv">
-                    <a href="" download="HV-ManuelFonseca">Descargar HV <FontAwesomeIcon icon={faDownload} /></a>
+                    <a href="#" download="HV-ManuelFonseca">Descargar HV <FontAwesomeIcon icon={faDownload} /></a>
                 </div>
             </div>
         </article>
