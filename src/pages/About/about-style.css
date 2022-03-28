@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+
+.container-about {
+    margin: 0 25px;
+    width: 1000px;
+}
+
+.container-about > article.information {
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(47 122 249 / 10%) 4px 0px 10px;
+}
+
+.information {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+}
+
+.information > img {
+    width: 100%;
+}
+
+.information > div > h1, article.information > div > h2 {
+    margin-left: 30px;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    width: 100%;
+}
+
+.about-me {
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.about-me > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me > div:hover {
+    transition: inherit;
+}
+
+.about-me > div > h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.about-me > div > p {
+    width: 80%;
+}
+
+.knowledge {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.knowledge > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    padding: 50px;
+    margin: 0 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(47 122 249 / 10%) 4px 0px 10px;
+}
+
+.knowledge > div > h4 {
+    font-family: 'Inter', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: rgb(43, 43, 43);
+}
+
+.knowledge > div > p {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.5;
+}
+
+.color-profesion {
+    color: #E74C3C;
+}

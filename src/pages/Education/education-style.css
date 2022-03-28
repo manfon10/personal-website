@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+
+.container-education {
+    margin: 0 25px;
+    width: 1000px;
+    font-family: 'Inter', sans-serif;
+}
+
+.title-education {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.rute-education {
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(47 122 249 / 10%) 4px 0px 10px;
+    padding: 25px;
+}
+
+.info-education {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.info-rute {
+    text-align: center;
+}
+
+.info-rute > h4, .info-rute > p {
+    margin-bottom: 10px;
+}
+
+.info-rute > p {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 30px;
+    margin-left: 40px;
+    align-items: center;
+}
+
+.info-rute > img {
+    width: 150px;
+}
+
+.description-rute {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description-rute > h4 {
+    margin-bottom: 20px;
+}
+
+.description-rute > button {
+    border: none;
+    width: 30px;
+    background-color: transparent;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.modal-diplome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(61, 59, 59, 0.596);
+}
+
+.content-modal {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 40px;
+    background-color: white;
+}
+
+.content-modal > button {
+    position: relative;
+    left: 18px;
+    bottom: 15px;
+    width: 30px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.color-date {
+    background-color: #E74C3C;
+    color: white;
+    padding: 5px;
+    font-size: 10px;
+}

@@ -1,0 +1,53 @@
+nav.menu-app {
+    width: 110px;
+}
+
+.fixed-nav {
+    position: fixed;
+    display: table-cell;
+    width: 110px;
+    height: calc(100vh - 0px); /* Utilizar toda la pantalla*/
+    background-color: rgb(255, 255, 255);
+    transition: all 300ms ease-in 0s;
+    box-shadow: rgb(47 122 249 / 10%) 4px 0px 10px;
+}
+
+.web-mode {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.buttons-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.buttons-nav > ul > li {
+    list-style: none;
+    margin-bottom: 60px;
+}
+
+.buttons-nav > ul > li > a {
+    background-color: rgb(250 250 250);
+    padding: 15px;
+    border-radius: 100%;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(118 118 118);
+}
+
+.buttons-nav > ul > li > a:hover {
+    background-color: #E74C3C;
+    color: white;
+}
+
+.web-mode > button {
+    border: none;
+    padding: 10px;
+    border-radius: 100%;
+    cursor: pointer;
+}

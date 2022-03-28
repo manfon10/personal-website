@@ -1,0 +1,148 @@
+.container-personal {
+    width: 290px;
+}
+
+.fixed-option {
+    position: fixed;
+    width: 290px;
+    height: 100vh;
+    padding: 30px;
+    display: table-cell;
+    transition: all 300ms ease-in 0s;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(47 122 249 / 10%) 4px 0px 10px;
+}
+
+.personal-information {
+    text-align: center;
+}
+
+div.fixed-option > div.personal-information > div.personal-image > img {
+    width: 70%;
+    border-radius: 10rem;
+    margin-bottom: 15px;
+}
+
+.personal-information > h4 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: inherit;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: rgb(43, 43, 43);
+    font-family: 'Inter', sans-serif;
+}
+
+.personal-information > h5 {
+    font-weight: 400;
+    color: rgb(43, 43, 43);
+    font-size: 17px;
+    font-style: normal;
+    line-height: 17px;
+    opacity: 0.5;
+}
+
+.personal-information > div.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+
+.personal-information > div.icons > a {
+    margin: 5px;
+    color: black;
+    background-color: #E74C3C;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+.personal-information > div.icons > a:hover {
+    color: white;
+}
+
+.information-left {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+@media only screen and ( min-height: 500px ) and (max-height: 967px) {
+    .information-left {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        height: 200px;
+        overflow-y: scroll;
+    }
+
+    .information-left::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+.information-left > div > ul {
+    padding: 15px 0 15px 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.information-left > div > ul > li {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.information-left > div > ul > li > p {
+    background-color: #E74C3C;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.information-left > div > ul > li > span {
+    opacity: 0.5;
+    font-size: 14px
+}
+
+.skils {
+    margin-top: 20px;
+}
+
+.skils > h5 {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.skils > div {
+    margin-top: 10px;
+}
+
+.skils > div > p {
+    margin-top: 10px;
+    font-family: 'Inter', sans-serif;
+}
+
+.button-download-hv {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.button-download-hv > a {
+    background-color: #E74C3C;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+}
+
+.separator {
+    width: 100%;
+    height: 2px;
+    opacity: 0.8;
+    background-color: #e5e5e5;
+}

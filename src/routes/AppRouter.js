@@ -1,6 +1,6 @@
 import React from 'react';
 import { About, Contact, Education, Projects, Trajectory } from '../pages';
-import { MainLayaut } from '../components';
+import { MainLayaut, PersonalInfo, Footer } from '../components';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 
 const AppRouter = () => {
