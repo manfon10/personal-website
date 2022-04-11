@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+
+.container-contact{
+    margin: 0 25px;
+    width: 60%;
+    font-family: 'Inter', sans-serif;
+}
+
+.container-information-contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+}
+
+.container-information-contact > div  > h2 {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.information-contact {
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(47 122 249 / 10%) 4px 0px 10px;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.information-contact > form {
+    display: flex;
+    flex-direction: column;
+}
+
+.information-contact > form > label {
+    margin-bottom: 20px;
+}
+
+.information-contact > form > input {
+    padding: 10px;
+    font-size: 16px;
+    color: rgb(118, 118, 118);
+    background: rgb(240, 240, 246);
+    border: none;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.information-contact > form > textarea {
+    padding: 10px;
+    font-size: 16px;
+    color: rgb(118, 118, 118);
+    background: rgb(240, 240, 246);
+    border: none;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.information-contact > form > button {
+    cursor: pointer;
+    background: #E74C3C;
+    text-transform: uppercase;
+    color: rgb(43, 43, 43);
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Inter;
+    padding: 9px 24px;
+}
+
+.information-contact-plus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.information-contact-plus > div {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(47 122 249 / 10%) 4px 0px 10px;
+    width: 100%;
+}
+
+.information-contact-plus > div > svg {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #E74C3C;
+    font-size: 20px;
+}
+
+.information-contact-plus > div > p {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.messageSuccess {
+    margin-top: 20px;
+    background-color: #D5F5E3;
+    color: #309e5e;
+    border: 1px solid #58D68D;
+    padding: 10px;
+}
+
+.messageError {
+    margin-top: 20px;
+    background-color: #FADBD8;
+    color: #E74C3C;
+    border: 1px solid #E74C3C;
+    padding: 10px;
+}
+
+.filed-required {
+    color: #E74C3C;
+    margin-bottom: 10px;
+}

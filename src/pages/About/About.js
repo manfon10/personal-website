@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import foto from '../../assets/img/foto-web.jpg';
 import { Footer } from '../../components';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

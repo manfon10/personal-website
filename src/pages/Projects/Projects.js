@@ -18,7 +18,7 @@ const Projects = () => {
                     <img src={WeatherApp} alt="" />
                         <div class="info-app">
                             <h2>Weather App</h2>
-                            <button>Ver App</button>
+                            <a href="https://api-weatherapp-manu.netlify.app/" target="_blank">Ver App</a>
                             <div>
                                 <i class="fab fa-html5 fa-lg"></i>
                                 <i class="fab fa-css3-alt fa-lg"></i>
@@ -33,7 +33,7 @@ const Projects = () => {
                     <img src={RiackAndMorty} alt="" />
                         <div class="info-app">
                             <h2>Rick And Morty App</h2>
-                            <button>Ver App</button>
+                            <a href="https://app-react-api.netlify.app/" target="_blank">Ver App</a>
                             <div>
                                 <i class="fab fa-html5 fa-lg"></i>
                                 <i class="fab fa-css3-alt fa-lg"></i>
@@ -48,7 +48,7 @@ const Projects = () => {
                     <img src={CrudApp} alt="" />
                         <div class="info-app">
                             <h2>Crud App</h2>
-                            <button>Ver App</button>
+                            <a href="https://crud-api-react.netlify.app/" target="_blank">Ver App</a>
                             <div>
                                 <i class="fab fa-html5 fa-lg"></i>
                                 <i class="fab fa-css3-alt fa-lg"></i>
@@ -64,7 +64,7 @@ const Projects = () => {
                     <img src={PokedexApp} alt="" />
                         <div class="info-app">
                             <h2>Pokedex App</h2>
-                            <button>Ver App</button>
+                            <a href="https://app-pokedex-api.netlify.app/" target="_blank">Ver App</a>
                             <div>
                                 <i class="fab fa-html5 fa-lg"></i>
                                 <i class="fab fa-css3-alt fa-lg"></i>
@@ -81,7 +81,7 @@ const Projects = () => {
                     <img src={EcommerceApp} alt="" />
                         <div class="info-app">
                             <h2>Ecommerce App</h2>
-                            <button>Ver App</button>
+                            <a href="https://api-ecommerce.netlify.app/" target="_blank">Ver App</a>
                             <div>
                                 <i class="fab fa-html5 fa-lg"></i>
                                 <i class="fab fa-css3-alt fa-lg"></i>

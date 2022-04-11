@@ -45,29 +45,35 @@
 }
 
 .info-app:hover {
-    background-color: rgba(82, 81, 81, 0.658);
+    background-color: #e74d3cc4;
     opacity: 1;
     transition: ease-in-out 1s;
 }
 
 .info-app h2 {
-    color: #E74C3C;
+    color: white;
     letter-spacing: 1px;
     font-size: 2em;
 }
 
-.info-app > button {
+.info-app > a {
     margin-top: 10px;
     padding: 8px;
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: white;
     border: none;
     cursor: pointer;
+    text-decoration: none;
 }
 
-.info-app > button:hover {
-    background-color: #E74C3C;
+.info-app > a:hover {
+    background-color: black;
+    color: white;
     transition: ease-in-out 1s;
+}
+
+.info-app > div {
+    text-align: center;
 }
 
 .info-app > div > i {
