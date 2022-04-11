@@ -1,0 +1,13 @@
+export { default as AcademloImage } from './academlo.png';
+export { default as AecsaImage } from './aecsa.jpg';
+export { default as DiplomaTecnico } from './diploma-tecnico.PNG';
+export { default as UdemyImage } from './logo-udemy.png';
+export { default as NecImage } from './nec.jpg';
+export { default as SenaImage } from './sena.jpeg';
+export { default as SolItImage } from './sol-it.jpg';
+export { default as FotoWebImage } from './foto-web.jpg';
+export { default as WeatherApp } from './weather-app.png';
+export { default as RiackAndMorty } from './riack-and-morty-app.png'; 
+export { default as CrudApp } from './crud-app.png';
+export { default as PokedexApp } from './pokedex.jpg';
+export { default as EcommerceApp } from './ecommerce.png';

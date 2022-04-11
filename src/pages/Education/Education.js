@@ -1,18 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Footer } from '../../components';
-import Sena from '../../assets/img/sena.jpeg';
-import Academlo from '../../assets/img/academlo.png';
-import DiplomaTecnico from '../../assets/img/diploma-tecnico.PNG';
+import { SenaImage, AcademloImage, DiplomaTecnico, UdemyImage } from '../../assets/img';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { 
     faEye,
     faEyeSlash
 } from '@fortawesome/free-solid-svg-icons';
+import { Helmet } from 'react-helmet';
 import './education-style.css';
 
 const Education = () => {
+
+    const [ hidden, setHidden ] = useState("hidden");
+
     return (
         <section className="container-education">
+            <Helmet>
+                <title>MF | Education</title>
+            </Helmet>
             <article className="title-education">
                 <h2>Educación</h2>
             </article>
@@ -21,7 +26,7 @@ const Education = () => {
                     <div className="info-rute">
                         <h4>Academlo</h4>
                         <p>En proceso <span className="color-date">Oct 2021 - Actualidad</span></p>
-                        <img src={Academlo} alt="Academlo"/>
+                        <img src={AcademloImage} alt="Academlo"/>
                     </div>
                     <div className="description-rute">
                         <h4>Web Full-Stack</h4>
@@ -29,14 +34,6 @@ const Education = () => {
                         <button>
                             <FontAwesomeIcon icon={faEye}/>
                         </button>
-                        <div className="modal-diplome">
-                            <div className="content-modal">
-                                <button>
-                                    <FontAwesomeIcon icon={faEyeSlash} size="2x"/>
-                                </button>
-                                <img src={DiplomaTecnico} alt="Diploma Tecnico" />
-                            </div>
-                        </div>
                     </div>
                 </div>
                 <div className="separator"></div>
@@ -44,7 +41,7 @@ const Education = () => {
                     <div className="info-rute">
                         <h4>Sena</h4>
                         <p>En proceso <span className="color-date">Agt 2019 - Actualidad</span></p>
-                        <img src={Sena} alt="Academlo"/>
+                        <img src={SenaImage} alt="Academlo"/>
                     </div>
                     <div className="description-rute">
                         <h4>Analisis y Desarrollo de Sistemas de Informacion</h4>
@@ -59,15 +56,38 @@ const Education = () => {
                     <div className="info-rute">
                         <h4>Sena</h4>
                         <p>Finalizado <span className="color-date">Sep 2017 - Sep 2018</span></p>
-                        <img src={Sena} alt="Academlo"/>
+                        <img src={SenaImage} alt="Academlo"/>
                     </div>
                     <div className="description-rute">
                         <h4>Tecnico en Sistemas</h4>
                         <p>El programa de técnico en sistemas, está pensado para formar personal calificado en las áreas de redes sociales, mantenimiento de equipos de cómputo y redes de computadores, donde se ha detectado que las empresas requieren soporte básico en el día a día de su operación.</p>
-                        <button>
+                        <button onClick={ () => setHidden("visible")}>
                             <FontAwesomeIcon icon={faEye}/>
                         </button>
+                        <div className="modal-diplome" style={{ visibility: `${hidden}`}}>
+                            <div className="content-modal">
+                                <button onClick={ () => setHidden("hidden")}>
+                                    <FontAwesomeIcon icon={faEyeSlash} />
+                                </button>
+                                <img src={DiplomaTecnico} alt="Diploma Tecnico" />
+                            </div>
+                        </div>
                     </div>
+                </div>
+            </article>
+            <article className="title-education">
+                <h2>Certificaciones</h2>
+            </article>
+            <article className="container-certificates">
+                <div>
+                    <img src={UdemyImage} alt="Udemy Curso" />
+                    <h4>JavaScript Moderno</h4>
+                    <p>En proceso</p>
+                </div>
+                <div>
+                    <img src={UdemyImage} alt="Udemy Curso" />
+                    <h4>React: De cero a experto ( Hooks y MENS )</h4>
+                    <p>En proceso</p>
                 </div>
             </article>
             <Footer />

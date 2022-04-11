@@ -1,16 +1,21 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import foto from '../../assets/img/foto-web.jpg';
 import { Footer } from '../../components';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { 
+import {
     faCode,
     faServer
 } from '@fortawesome/free-solid-svg-icons';
+import { Helmet } from 'react-helmet';
 import './about-style.css';
 
 const About = () => {
+
     return (
         <section className="container-about">
+            <Helmet>
+                <title>MF | Home</title>
+            </Helmet>
             <article className="information">
                 <div>
                     <h1>Soy Manuel Fonseca</h1>
